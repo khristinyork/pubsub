@@ -365,6 +365,7 @@ public class KafkaConsumer<K, V> implements Consumer<K, V> {
     subscribe(matchingTopics);
 
     log.debug("Subscribed to pattern: {}", pattern);
+    log.debug("Subscribed to pattern: {}", pattern);
   }
 
   private List<Topic> getPubsubExistingTopics() {
